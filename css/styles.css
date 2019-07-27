@@ -3,6 +3,8 @@
 body {
   background-color: #eaffd0;
   color: #00a79d;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 hr {
   border-style: none;
@@ -29,6 +31,7 @@ input {
 img:hover {
   border-color: #f5c181;
   border-style: solid;
+  border-width: 15px;
 }
 
 /*******************CLASS SELECTORS************************/
