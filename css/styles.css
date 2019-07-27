@@ -1,4 +1,4 @@
-
+/*******************TAG SELECTORS*************************/
 
 body {
   background-color: #eaffd0;
@@ -25,4 +25,14 @@ a{
 }
 input {
   color: #f38181;
+}
+img:hover {
+  border-color: #f5c181;
+  border-style: solid;
+}
+
+/*******************CLASS SELECTORS************************/
+
+.Profile-pic {
+  border-radius: 50%;
 }
