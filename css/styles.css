@@ -1,0 +1,28 @@
+
+
+body {
+  background-color: #eaffd0;
+  color: #00a79d;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #fce38a;
+  border-width: 10px;
+  width: 95%;
+}
+h1 {
+  color: #007065;
+}
+h2 {
+  color: #007065;
+}
+h3 {
+  color: #007065;
+}
+a{
+  color: #f38181;
+}
+input {
+  color: #f38181;
+}
