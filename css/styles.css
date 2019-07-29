@@ -1,8 +1,13 @@
 /*******************TAG SELECTORS*************************/
+title {
+  font-family: 'Amatic SC', cursive;
+}
+
 body {
   background-color: #f6edcf; /*#eaffd0;*/
   color: #00a79d;
   margin: 0;
+  font-family: 'Kalam', cursive;  /* Verdana,Geneva,sans-serif; */
 }
 
 hr {
@@ -51,7 +56,7 @@ div {
 }
 
 span {
-  display: inline;
+  display: inline-block;
 }
 
 /*******************CLASS SELECTORS************************/
@@ -74,7 +79,7 @@ span {
 .forth {
   background-color: #a4d7e1;
   margin: 20px ;
-  height: 330px;
+  /* height: 330px; */
 }
 
 .Profile-pic {
@@ -82,12 +87,13 @@ span {
 }
 
 .facility {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: auto;
   margin-left: 60px;
-  position: relative;
+  /* position: relative;
   left: 520px;
-  bottom: 270px;
+  bottom: 270px; */
 }
 
 .TTT {
