@@ -1,41 +1,91 @@
 /*******************TAG SELECTORS*************************/
-
 body {
-  background-color: #eaffd0;
+  background-color: #f6edcf; /*#eaffd0;*/
   color: #00a79d;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin: 0;
 }
+
 hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #fce38a;
-  border-width: 10px;
-  width: 95%;
+  border-width: 20px;
+  width: 90%;
 }
+
 h1 {
+  margin: 0;
   color: #007065;
 }
+
 h2 {
   color: #007065;
 }
+
 h3 {
   color: #007065;
 }
-a{
+
+a {
   color: #f38181;
 }
+
 input {
   color: #f38181;
 }
+
 img:hover {
   border-color: #f5c181;
   border-style: solid;
   border-width: 15px;
 }
 
+th {
+  color: #f38181;
+}
+
+div {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+span {
+  display: inline;
+}
+
 /*******************CLASS SELECTORS************************/
+.first {
+  background-color: #f6edcf;
+  margin: 0;
+}
+
+.second {
+  background-color: #f0dab1;
+  margin: 20px ;
+
+}
+
+.third {
+  background-color: #daf1f9;
+  margin: 20px ;
+}
+
+.forth {
+  background-color: #a4d7e1;
+  margin: 20px ;
+  height: 330px;
+}
 
 .Profile-pic {
   border-radius: 50%;
+}
+
+.facility {
+  width: 400px;
+  height: auto;
+  margin-left: 60px;
+  position: relative;
+  left: 520px;
+  bottom: 270px;
 }
