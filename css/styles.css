@@ -52,9 +52,9 @@ th {
   color: #672f2f;
 }
 
-td {
+/* td {
   padding: 0 30px;
-}
+} */
 
 div {
   padding-left: 50px;
@@ -121,6 +121,12 @@ span {
 .skill-table-sub {
   padding: 0 30px;
 }
+
+.work-format {
+  padding: 0;
+  width: 200;
+}
+
 
 .facility {
   float: left;
